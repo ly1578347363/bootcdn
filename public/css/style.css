@@ -1,0 +1,41 @@
+header {
+    background-color: #27AE60;
+    height: 400px;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+li,
+ul {
+    list-style: none;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.nav_bar ul li {
+    float: left;
+    margin: 0 10px;
+    padding: 15px;
+}
+
+.nav_logo {
+    padding: 15px;
+    font-size: 25px;
+}
+
+.nav {
+    font-size: 14px;
+}
