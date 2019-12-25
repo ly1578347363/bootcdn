@@ -128,4 +128,39 @@ footer a:hover {
 
 .box5 span {
     margin-left: 20px;
+    padding-top: 15px;
+}
+
+.nav_center {
+    text-align: center;
+}
+
+.nav_center h1 {
+    font-size: 56px;
+}
+
+.nav_center p {
+    font-size: 21px;
+}
+
+.nav_center p span {
+    font-size: 14px;
+}
+
+.nav_center .search {
+    margin-top: 30px;
+    width: 680px;
+    margin: 0 auto;
+}
+
+.nav_center .search input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.nav_btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
 }
