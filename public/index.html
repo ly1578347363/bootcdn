@@ -18,6 +18,8 @@
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.js"></script>
 </head>
 
 <body>
@@ -57,7 +59,12 @@
                 </li>
             </ul>
         </div>
-
+        <script>
+            // .ajaxStart() // 当请求开始发送时触发
+            // .ajaxComplete() // 当请求完成时触发
+            NProgress.start(); // 进度条开始运动 
+            NProgress.done(); // 进度条结束运动
+        </script>
     </header>
 
 
