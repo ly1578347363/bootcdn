@@ -39,3 +39,83 @@ ul {
 .nav {
     font-size: 14px;
 }
+
+
+/*  底部导航*/
+
+footer {
+    padding-top: 60px;
+    margin-top: 50px;
+    width: 100%;
+    /* height: 400px; */
+    background-color: #27AE60;
+    color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline!important;
+}
+
+.box1 {
+    float: left;
+    width: 450px;
+    margin-right: 50px;
+}
+
+.box1 p {
+    margin-top: 20px;
+}
+
+.box2 h4 {
+    margin-bottom: 20px;
+}
+
+.box2 {
+    float: left;
+    width: 260px;
+    margin-right: 50px;
+}
+
+.box2 a {
+    margin-right: 10px;
+}
+
+.box3 {
+    float: left;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.box3 a {
+    margin-right: 10px;
+}
+
+.box3 h4 {
+    margin-bottom: 20px;
+}
+
+.box4 {
+    float: left;
+}
+
+.box4 h4 {
+    margin-bottom: 20px;
+}
+
+.box4 img {
+    width: 123px;
+}
+
+.box5 {
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgb(16, 165, 90);
+    text-align: center;
+    font-size: 16px;
+    line-height: 50px;
+    height: 50px;
+}
+
+.box5 span {
+    margin-left: 20px;
+}
