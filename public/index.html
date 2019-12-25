@@ -18,6 +18,8 @@
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/nprogress/0.2.0/nprogress.js"></script>
 </head>
 
 <body>
@@ -40,7 +42,29 @@
 
 
         </div>
+        <div class=" col-xs-12 nav_center">
+            <h1>BootCDN</h1>
+            <p>稳定、快速、免费的前端开源项目 CDN 加速服务
+                <br>
+                <span>共收录了 3442 个前端开源项目</span></p>
+            <div class="search">
+                <input class="form-control search clearable" placeholder="搜索开源库，例如：jquery" autocomplete="off" autofocus="" tabindex="0" autocorrect="off" autocapitalize="off" spellcheck="false">
+            </div>
+        </div>
 
+        <div class="nav_btn  col-xs-12">
+            <ul>
+                <li>
+                    <a href=""> <img src="" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <script>
+            // .ajaxStart() // 当请求开始发送时触发
+            // .ajaxComplete() // 当请求完成时触发
+            NProgress.start(); // 进度条开始运动 
+            NProgress.done(); // 进度条结束运动
+        </script>
     </header>
     <!-- 底部导航 -->
     <footer>

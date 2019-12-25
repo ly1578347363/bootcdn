@@ -3,6 +3,10 @@ header {
     height: 400px;
 }
 
+body {
+    color: #ffffff;
+}
+
 a {
     color: #ffffff;
 }
@@ -15,7 +19,13 @@ a:hover {
 li,
 ul {
     list-style: none;
+    /* outline: none; */
 }
+
+
+/* input {
+    outline: none;
+} */
 
 .fr {
     float: right;
